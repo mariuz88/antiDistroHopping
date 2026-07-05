@@ -28,7 +28,7 @@ Nello sviluppo della nostra App l'IA è stata utilizzata esclusivamente per:
 
 
 **Nota sui Commit:**
-Nel Textbook del docente viene detto che la cronologia dei commit è una parte dimostrante del lavoro. In questa repository è presente un singolo commit.
+Nel Textbook del docente viene detto che la cronologia dei commit è una parte dimostrante del lavoro. In questa repository sono presenti pochi commit.
 *Perché?*
 Siccome la nostra app contiene la chiave API nel `local.properties`, abbiamo lavorato su una repository privata in modo tale che ognuno di noi potesse testare l'app nella sua completezza. Dato che una chiave API non deve mai essere pubblica abbiamo ricreato una repo pulita con `local.properties` nel `.gitignore`.
 Alleghiamo immagine dei commit della repo privata:

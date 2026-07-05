@@ -76,7 +76,7 @@ Il progetto segue l'architettura MVVM sfruttando il viewmodel per conservare e s
 
 * **`/app/src/main/java/com/mario/beta_antidh/rete/` (Network Layer)**  
       Gestisce l'intera comunicazione HTTP verso l'esterno:
-  * `RetrofitClient.kt`: Un Singleton che inizializza l'interceptor che permette di riportare le informazioni delle comunicazione nel logcat solo in fase di debug, l'OkHttp che prende l'interceptor precedentemente creato e i tempi massimi di attesa di risposta della rete(60 secondi). infine costruisce il Retrofit includendo il base Url di groq,l'OkHttp e il convertitore GSON da Json che riceviamo come risposta Ai in oggetto Kotlin.
+  * `RetrofitClient.kt`: Un Singleton che inizializza l'interceptor che permette di riportare le informazioni delle comunicazione nel logcat solo in fase di debug, l'OkHttp che prende l'interceptor precedentemente creato e i tempi massimi di attesa di risposta della rete(60 secondi). infine costruisce il Retrofit includendo il base Url di groq, l'OkHttp e il convertitore GSON da Json che riceviamo come risposta Ai in oggetto Kotlin.
   * `GroqApiService.kt`: Interfaccia Retrofit che definisce l' endpoint con la chiamata POST e definsice i parametri della coroutine per comunicare correttamente con la rete.
 
 * **`/app/src/main/java/com/mario/beta_antidh/modello/` (Data Layer)**  

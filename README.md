@@ -91,3 +91,4 @@ Il progetto segue l'architettura MVVM sfruttando il viewmodel per conservare e s
 * Textbook docente Raffaele Montella
 * [Documentazione Ufficiale Android](https://developer.android.com/)
 * [Documentazione Ufficiale Kotlin](https://kotlinlang.org/docs/home.html)
+* [Documentazione Ufficiale Groq](https://console.groq.com/docs/overview)

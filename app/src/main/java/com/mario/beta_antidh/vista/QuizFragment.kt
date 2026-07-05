@@ -33,7 +33,7 @@ class QuizFragment : Fragment() {
 
     //prima schermata creata ma non interagibile, mo interazione 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState
+        super.onViewCreated(view, savedInstanceState)
 // fragmanet osserva indice domanda viewmodel per ui 
         viewModel.indiceDomandaCorrente.observe(viewLifecycleOwner) { indice -> aggiornaUI(indice)}
 

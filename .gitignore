@@ -1,0 +1,24 @@
+#Gradle e Build
+.gradle/
+/build/
+/app/build/
+#LA COSA PIÙ IMPORTANTE
+local.properties
+
+#NDK, standard rimozione
+obj/
+.cxx/
+.externalNativeBuild/
+
+#ide
+*.iml
+/.idea/
+gradle-app.setting
+
+
+
+#chaivi firrme
+*.jks
+*.keystore
+*.p12
+*.key

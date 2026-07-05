@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Beta antiDH</string>
+    
+    <string name="domanda_indice">Domanda %1$d/%2$d</string>
+    
+    <string name="hint_altro">Scrivi qui le tue esigenze...</string>
+    <string name="hint_finale">Es. \"Ho bisogno di un kernel RT per produzione audio\" oppure \"Voglio pacchetti compilati per x86-64-v3\"</string>
+    <string name="btn_indietro">Indietro</string>
+    <string name="btn_avanti">Continua</string>
+    <string name="btn_analizza"> Analizza</string>
+    <string name="la_tua_distro">La tua distro ideale è: </string>
+    <string name="alternative_label"> Alternative consigliate: </string>
+    <string name="torna_home">Torna alla Home</string>
+    
+    <string name="analisi_corso">Analisi in corso.... .</string>
+    <string name="logo_desc">Logo antiDistroHopping</string>
+    
+    <string name="radio_desc">Icona Selezione </string>
+    <string name="distro_logo_desc">Logo Distribuzione</string>
+</resources>

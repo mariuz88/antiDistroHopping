@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--tema-->
+    <style name="Theme.Beta_antiDH" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--priimario-->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/blue_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--2nd -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!--sfondo-->
+        <item name="android:windowBackground">@color/bg_main</item>
+        <item name="android:statusBarColor">@color/bg_main</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="RoundedCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">48dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+</resources>
